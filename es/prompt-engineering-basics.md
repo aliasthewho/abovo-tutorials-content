@@ -1,88 +1,98 @@
 ---
-title: "Introduction to Prompt Engineering for AI Agents"
+title: "Introducción al Prompting: cómo hablar con una IA"
 date: 2025-06-14
-categories: ["ai"]
-tags: ["prompt-engineering", "chatgpt", "llm", "instruction-design", "ai-tools"]
-difficulty: ["intermediate"]
-series: "AI Literacy"
+categories: ["inteligencia-artificial"]
+tags: ["prompting", "chatgpt", "llm", "ingenieria-de-prompts", "conversacion-ia"]
+difficulty: ["intermedio"]
+series: "Alfabetización en IA"
 ---
 
-# Introduction
+# Introducción
 
-Prompt engineering is the practice of crafting effective instructions to guide large language models (LLMs) like ChatGPT, Claude, or Gemini. Mastering this skill enables developers, researchers, and knowledge workers to get precise, safe, and efficient outputs from AI systems.
+Actualmente, muchas personas delegan completamente su trabajo a herramientas de inteligencia artificial, confiando ciegamente en los resultados. Sin embargo, un modelo de lenguaje no debería ser visto como un reemplazo de nuestra responsabilidad profesional, sino como un facilitador: una guía para el pensamiento, el análisis y la toma de decisiones.
 
-This tutorial is based on practical lessons from:
-- [DeepLearning.AI: ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/)
-- [Anthropic: Real World Prompting](https://github.com/anthropics/courses/blob/master/real_world_prompting/README.md)
-- [Awesome Windsurf Rules (GitHub)](https://github.com/balqaasem/awesome-windsurfrules)
-- [Google Drive Prompt Gallery](https://drive.google.com/drive/u/0/folders/1kGodiToZNFAw_zwECWwoNKlokPoU_TyH)
+Interactuar con una IA es más provechoso cuando se entiende como un proceso de ida y vuelta, donde se construyen ideas, se corrigen errores y se afina la dirección del diálogo. En este proceso, el modelo puede asumir distintos "roles" o "sombreros" según el contexto o la intención que le indiquemos. Si no damos una guía clara desde el inicio, puede tomar tiempo para que las respuestas se alineen a nuestras expectativas.
 
-## What is a Prompt?
+El prompting —la técnica de dar instrucciones específicas a un modelo— ha sido popularizada en el ámbito técnico por ingenieros y desarrolladores, quienes buscan acelerar procesos complejos y obtener respuestas precisas. Pero esta habilidad no está limitada a personas técnicas: cualquier usuario puede beneficiarse de escribir mejores instrucciones.
 
-A prompt is any input given to an AI model to elicit a response. Prompts may include questions, commands, examples, or context. The structure and clarity of the prompt have a major impact on model output.
+Este tutorial tiene como propósito ayudarte a mejorar tus interacciones con modelos de IA, con técnicas que sirven tanto para principiantes como para usuarios avanzados.
 
-## Prompt Design Patterns
+---
 
-### 1. Instruction-based prompts
+# ¿Qué es un prompt?
 
-> “Summarize the following text in bullet points…”
+Un prompt es cualquier instrucción o entrada que le das a un modelo de lenguaje para obtener una respuesta. Puede ser una pregunta, una descripción de tarea, una serie de ejemplos o incluso un formato a seguir.
 
-Use concise directives to clearly state your goal.
+La calidad del prompt impacta directamente en la calidad de la respuesta. Saber redactar prompts efectivos es una habilidad clave en el uso moderno de herramientas de IA.
 
-### 2. Zero-shot and Few-shot prompting
+---
 
-- **Zero-shot**: Provide only a task.
-- **Few-shot**: Include examples to guide the model’s behavior.
+# Técnicas comunes de prompting
 
-### 3. Role prompting
+## 1. Instrucciones claras
 
-> “You are a financial advisor. Explain diversification to a beginner.”
+> Resume el siguiente texto en viñetas...
 
-Assigning roles helps models align with expectations and tone.
+Usa un lenguaje directo y específico. Cuanto más clara sea tu intención, mejores serán los resultados.
 
-### 4. Chain of Thought prompting
+## 2. Rol o contexto
 
-Encourages step-by-step reasoning.
+> Actúa como un profesor de historia. Explícame la Revolución Francesa en un nivel escolar.
 
-> “Let’s think step by step…”
+Dar un rol al modelo ayuda a ajustar su tono, profundidad y enfoque.
 
-### 5. Format enforcement
+## 3. Ejemplos (few-shot prompting)
 
-> “Reply in valid JSON with keys: 'title', 'summary', 'tags'.”
+Puedes mostrar ejemplos para que el modelo entienda cómo responder. Ejemplo:
 
-Use structural hints to receive output suitable for parsing or post-processing.
+- Entrada: “Perro”
+- Salida: “Animal doméstico que ladra”
 
-## Common Pitfalls
+→ Ahora dale la palabra “Gato”
 
-- Vague instructions
-- Overloading the prompt with unrelated context
-- Relying on implicit goals
-- Forgetting language neutrality or user audience
+Esto guía el estilo y el tipo de respuesta.
 
-## Examples and Use Cases
+## 4. Pensamiento paso a paso (chain of thought)
 
-Examples are drawn from:
-- AI content generation
-- Software development assistants
-- Code refactoring
-- Business analysis and report drafting
-- Recipe and instruction generation (see Windsurf examples)
+> Vamos a razonar paso a paso...
 
-## Tools to Help Prompt Engineering
+Esta técnica mejora respuestas en tareas complejas como lógica o matemáticas.
 
-- [OpenAI Playground](https://platform.openai.com/playground)
-- [Anthropic Console](https://console.anthropic.com/)
-- [PromptLayer](https://promptlayer.com/)
-- [FlowGPT](https://flowgpt.com/) – prompt gallery
+## 5. Formato estructurado
 
-## Further Learning
+> Devuélveme la respuesta en formato JSON con las claves: "título", "resumen", "etiquetas".
 
-- [DeepLearning.AI Course](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/)
-- [Anthropic’s Real World Prompting](https://github.com/anthropics/courses/)
-- [Guide to Prompt Engineering (Prompt Engineering Guide)](https://github.com/dair-ai/Prompt-Engineering-Guide)
+Es útil si necesitas que la IA devuelva datos para otros sistemas o procesos.
+
+---
+
+# Errores comunes
+
+- Usar instrucciones vagas
+- Cambiar de tema en medio del prompt
+- No definir el objetivo claramente
+- Pedir cosas contradictorias
+- Asumir que la IA “ya entiende” sin contexto
+
+---
+
+# Enlaces útiles
+
+Te recomendamos los siguientes recursos de calidad para profundizar en el tema:
+
+### 🎓 Cursos y guías
+- [Curso oficial de DeepLearning.AI – Prompt Engineering para Desarrolladores](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/)
+- [Curso de Anthropic – Real World Prompting](https://github.com/anthropics/courses/blob/master/real_world_prompting/README.md)
+- [Prompt Engineering Guide (por DAIR AI)](https://github.com/dair-ai/Prompt-Engineering-Guide)
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
 
-## Summary
+### 📚 Galerías de ejemplos
+- [Google Drive: Prompts útiles y variados](https://drive.google.com/drive/u/0/folders/1kGodiToZNFAw_zwECWwoNKlokPoU_TyH)
+- [Repositorio Awesome Windsurf Rules](https://github.com/balqaasem/awesome-windsurfrules)
 
-Effective prompts are a key interface between humans and modern AI systems. Good prompts make AI tools useful, safe, and controllable — and poor prompts result in inefficiency and risk. Learn to think like a prompt engineer, and your productivity with AI will accelerate.
+---
+
+# Cierre
+
+Escribir buenos prompts es una habilidad que se entrena. No se trata de tener conocimientos técnicos profundos, sino de aprender a comunicarse con claridad, adaptar los mensajes al contexto y aprovechar la versatilidad del modelo. Esperamos que este tutorial y los recursos compartidos te ayuden a mejorar tus interacciones con IA, y a transformar la herramienta en una verdadera aliada para tu trabajo y aprendizaje.
 
