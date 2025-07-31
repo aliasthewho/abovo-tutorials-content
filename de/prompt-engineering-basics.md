@@ -15,7 +15,6 @@ Gutes Prompting ist ein dialogischer Prozess. Mensch und Modell liefern abwechse
 
 Obwohl Prompting oft mit technischen Berufen assoziiert wird, ist es für alle nützlich, die im Alltag mit KI arbeiten.
 
----
 
 # Was ist ein Prompt?
 
@@ -23,7 +22,6 @@ Ein Prompt ist jede Eingabe, die du an ein KI-Modell gibst – eine Frage, eine 
 
 Die Art und Weise, wie du den Prompt formulierst, beeinflusst direkt die Qualität der Antwort.
 
----
 
 # Häufige Prompting-Techniken
 
@@ -60,7 +58,6 @@ Nützlich bei logischen Aufgaben oder Problemlösungen.
 
 Hilfreich, wenn die Antwort weiterverarbeitet wird.
 
----
 
 # Häufige Fehler
 
@@ -70,7 +67,6 @@ Hilfreich, wenn die Antwort weiterverarbeitet wird.
 - Widersprüchliche Anforderungen
 - Fehlender Kontext
 
----
 
 # Nützliche Ressourcen
 
@@ -84,7 +80,6 @@ Hilfreich, wenn die Antwort weiterverarbeitet wird.
 - [Google Drive: Beispiele für Prompts](https://drive.google.com/drive/u/0/folders/1kGodiToZNFAw_zwECWwoNKlokPoU_TyH)
 - [Awesome Windsurf Rules (GitHub)](https://github.com/balqaasem/awesome-windsurfrules)
 
----
 
 # Fazit
 

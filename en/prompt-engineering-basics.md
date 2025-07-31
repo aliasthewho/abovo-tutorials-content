@@ -15,7 +15,6 @@ Good prompting is a two-way conversation. The model and the user both contribute
 
 While prompting is a technique often used by engineers to solve dense or lengthy problems, it's not just for them. This tutorial is for anyone who uses AI tools in everyday life and wants to communicate better with them.
 
----
 
 # What is a prompt?
 
@@ -23,7 +22,6 @@ A prompt is anything you write to the model to get a response — a question, a 
 
 The way you phrase your prompt determines the quality of the answer. Writing effective prompts is a core skill for interacting with modern AI.
 
----
 
 # Common Prompting Techniques
 
@@ -60,7 +58,6 @@ This is useful for logic, analysis, or problem-solving.
 
 This is helpful when AI outputs are used by other tools or scripts.
 
----
 
 # Common Mistakes
 
@@ -70,7 +67,6 @@ This is helpful when AI outputs are used by other tools or scripts.
 - Asking contradictory things
 - Assuming the AI “gets it” without context
 
----
 
 # Useful Resources
 
@@ -84,7 +80,6 @@ This is helpful when AI outputs are used by other tools or scripts.
 - [Google Drive: Curated prompt examples](https://drive.google.com/drive/u/0/folders/1kGodiToZNFAw_zwECWwoNKlokPoU_TyH)
 - [Awesome Windsurf Rules Repository](https://github.com/balqaasem/awesome-windsurfrules)
 
----
 
 # Final Thoughts
 
