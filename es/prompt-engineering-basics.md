@@ -17,15 +17,12 @@ El prompting —la técnica de dar instrucciones específicas a un modelo— ha 
 
 Este tutorial tiene como propósito ayudarte a mejorar tus interacciones con modelos de IA, con técnicas que sirven tanto para principiantes como para usuarios avanzados.
 
----
 
 # ¿Qué es un prompt?
 
 Un prompt es cualquier instrucción o entrada que le das a un modelo de lenguaje para obtener una respuesta. Puede ser una pregunta, una descripción de tarea, una serie de ejemplos o incluso un formato a seguir.
 
 La calidad del prompt impacta directamente en la calidad de la respuesta. Saber redactar prompts efectivos es una habilidad clave en el uso moderno de herramientas de IA.
-
----
 
 # Técnicas comunes de prompting
 
@@ -64,7 +61,6 @@ Esta técnica mejora respuestas en tareas complejas como lógica o matemáticas.
 
 Es útil si necesitas que la IA devuelva datos para otros sistemas o procesos.
 
----
 
 # Errores comunes
 
@@ -74,7 +70,6 @@ Es útil si necesitas que la IA devuelva datos para otros sistemas o procesos.
 - Pedir cosas contradictorias
 - Asumir que la IA “ya entiende” sin contexto
 
----
 
 # Enlaces útiles
 
@@ -90,7 +85,6 @@ Te recomendamos los siguientes recursos de calidad para profundizar en el tema:
 - [Google Drive: Prompts útiles y variados](https://drive.google.com/drive/u/0/folders/1kGodiToZNFAw_zwECWwoNKlokPoU_TyH)
 - [Repositorio Awesome Windsurf Rules](https://github.com/balqaasem/awesome-windsurfrules)
 
----
 
 # Cierre
 
