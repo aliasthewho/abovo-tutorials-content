@@ -17,40 +17,40 @@ series: "Design Foundations"
 4. **I** – Interface Segregation Principle  
 5. **D** – Dependency Inversion Principle
 
----
+
 
 ## 1. Single Responsibility Principle (SRP)
 
 ### Architectural Focus
 
----
+
 
 ## 2. Open/Closed Principle (OCP)
 
 ### Architectural Focus
 
----
+
 
 ## 3. Liskov Substitution Principle (LSP)
 
 ### Architectural Focus
 
----
+
 
 ## 4. Interface Segregation Principle (ISP)
 
 ### Architectural Focus
 
----
+
 
 ## 5. Dependency Inversion Principle (DIP)
 
 ### Architectural Focus
 
----
+
 
 ## Summary Table
 
----
+
 
 ## Closing Thoughts

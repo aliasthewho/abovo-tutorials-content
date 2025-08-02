@@ -17,7 +17,7 @@ El prompting —la técnica de dar instrucciones específicas a un modelo— ha 
 
 Este tutorial tiene como propósito ayudarte a mejorar tus interacciones con modelos de IA, con técnicas que sirven tanto para principiantes como para usuarios avanzados.
 
-
+ abracabarro.com
 # ¿Qué es un prompt?
 
 Un prompt es cualquier instrucción o entrada que le das a un modelo de lenguaje para obtener una respuesta. Puede ser una pregunta, una descripción de tarea, una serie de ejemplos o incluso un formato a seguir.
